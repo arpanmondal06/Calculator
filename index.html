@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS&Script/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://github.com/ironstar06"     aria-current="page" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/arpan-mondal-d446/"     aria-current="page" target="_blank">Linkedin</a></li>
+        </ul>
+    </nav>
+    <div class="container dark">
+        <div class="theme-toggler active">
+            <i class="toggler-icon"></i>
+        </div>
+        <div class="display-screen">
+            <div id="display"></div>
+        </div>
+        <input type="text" placeholder="0">
+        <table>
+            <tr>
+                <td><button class="operator" id="clear">C</button></td>
+                <td><button class="operator">/</button></td>
+                <td><button class="operator">*</button></td>
+                <td><button class="operator">DEL</button></td>
+            </tr>
+            <tr>
+                <td><button class="number">7</button></td>
+                <td><button class="number">8</button></td>
+                <td><button class="number">9</button></td>
+                <td><button class="operator">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="number">4</button></td>
+                <td><button class="number">5</button></td>
+                <td><button class="number">6</button></td>
+                <td><button class="operator">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="number">1</button></td>
+                <td><button class="number">2</button></td>
+                <td><button class="number">3</button></td>
+                <td rowspan="2"><button class="calculate" id="equal">=</button></td>
+            </tr>
+            <tr>
+                <td><button class="number">00</button></td>
+                <td><button class="number">0</button></td>
+                <td><button class="operator">.</button></td>
+
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./CSS&Script/script.js"></script>
+</html>
